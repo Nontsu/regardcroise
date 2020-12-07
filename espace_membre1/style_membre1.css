@@ -1,0 +1,42 @@
+*
+{	box-sizing:border-box;
+	margin:0;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+} 
+body
+{	height:100vh;
+}
+/*Mise en forme de l'en-tête */
+header
+{	height:25vh;
+	text-align:center;
+} 
+header > h1
+{	height:10vh;
+	line-height:10vh;
+}
+header > nav
+{	height:15vh;
+}
+header a
+{	display:inline-block;
+	vertical-align:middle;
+	margin : 0px 10px;
+}
+.fantome
+{	display:inline-block;
+	vertical-align:middle;
+	height:100%;
+}
+
+div 
+{  height: 75vh;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+section
+{	height:100%;
+}
+
+	
